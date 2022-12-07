@@ -1,6 +1,5 @@
 @extends('layouts.main')
 
 @section('container')
-<h1>Review</h1>
+<img src="img/about.jpg" class="img-fluid" alt="...">
 @endsection
-
