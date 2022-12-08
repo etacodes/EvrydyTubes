@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand" href="/">
-            <img src="img/B.jpg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            <img src="img/B.jpg" alt="" width="30" height="30" class="d-inline-block align-text-merge">
             EverydayShoes
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,6 +22,12 @@
                 <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/about"><i class="bi bi-info-circle"></i> About</a>
               </li>
             </ul>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-success btn-sm"><a href="/login" class="nav-link text-white {{ ($title === "Login") ? 'active' : '' }}">
+                    <i class="bi bi-door-open"></i> Login</a></button>
+                </li>
+              </ul>
           </div>
         </div>
       </nav>
