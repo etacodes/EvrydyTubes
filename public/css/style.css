@@ -41,3 +41,7 @@
   .display-1 {
     font-variant: small-caps;
   }
+
+.col-md-5 {
+  font-family: verdana;
+}
