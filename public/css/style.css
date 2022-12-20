@@ -26,21 +26,13 @@
 
   .navbar-brand {
     font-family: arial;
-    font-variant: small-caps;
   }
 
   .nav-item {
     font-family: verdana;
-    font-variant: small-caps;
   }
 
-  .header {
-    font-variant: small-caps;
-  }
 
-  .display-1 {
-    font-variant: small-caps;
-  }
 
 .col-md-5 {
   font-family: verdana;

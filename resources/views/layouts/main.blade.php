@@ -15,6 +15,8 @@
     {{-- CSS Login --}}
     <link rel="stylesheet" href="/css/style.css">
 
+    {{-- css fontawesome --}}
+    <link rel="stylesheet" href="/css/all.min.css">
     {{-- navbar --}}
         @include('partials.navbar')
 
