@@ -9,19 +9,19 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active" >
-          <img src="img/1.jpg" class="d-block w-100 " alt="..." height="550">
+          <img src="img/1.jpg" class="d-block w-100" height="550" alt="Responsive image">
           <div class="carousel-caption d-none d-md-block">
             <h3>NIKE NEW COLLECTIONS</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/2.jpg" class="d-block w-100" alt="..." height="550">
+          <img src="img/2.jpg" class="d-block w-100" height="550" alt="Responsive image">
           <div class="carousel-caption d-none d-md-block">
             <h3>PUMA</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/3.jpg" class="d-block w-100" alt="..." height="550">
+          <img src="img/3.jpg" class="d-block w-100" height="550" alt="Responsive image">
           <div class="carousel-caption d-none d-md-block">
             <h3>PUMA NEW COLLECTIONS</h5>
           </div>
@@ -45,7 +45,7 @@
         <p class="lead">creating exciting fanwear and street-ready collaborations as well as supplying the team with high performance engineered racewear, gloves, boots, and pre-race team uniforms.</p>
       </div>
       <div class="col-md-5">
-        <img src="img/4.jpg" class="d-block w-100" alt="..." height="100%">
+        <img src="img/4.jpg" class="d-block w-100" alt="Responsive image" height="100%">
 
       </div>
     </div>
@@ -58,7 +58,7 @@
         <p class="lead">The latest and greatest innovation to hit the streets, the Force 58 gives you the durability of a cupsole with the flexibility of vulcanised shoes. Made from canvas and suede and finished with perforations on the toe, the whole look is infused with heritage basketball DNA.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="img/5.jpg" class="d-block w-100" alt="..." height="100%">
+        <img src="img/5.jpg" class="d-block w-100" alt="Responsive image" height="100%">
 
       </div>
     </div>
@@ -71,7 +71,7 @@
         <p class="lead">A familiar favourite is reborn in the Nike BRSB. Almost every detail, from the colour-blocking to the sawtooth pattern on the sole, was inspired by the original Nike Cortez. But, because this shoe is built for skate, we added extras where they're needed—like the rubber from the sole that wraps up and over the heel and toe for durability. It also wraps the sides, adding an extra layer to high-use areas, like the ollie zone.</p>
       </div>
       <div class="col-md-5">
-        <img src="img/6.jpg" class="d-block w-100" alt="..." height="100%">
+        <img src="img/6.jpg" class="d-block w-100" alt="Responsive image" height="100%">
 
       </div>
     </div>
