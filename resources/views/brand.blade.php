@@ -25,7 +25,7 @@
                 <i class="bi bi-star-half"></i> 
                 <i class="bi bi-star"></i>
               </p>
-              <a href="#" class="btn btn-primary">Go To Review</a>
+              <a href="#" class="btn btn-primary" class="text-light">Go To Review</a>
             </div>
         </div>
     </div>

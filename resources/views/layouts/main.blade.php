@@ -15,8 +15,10 @@
     {{-- CSS Login --}}
     <link rel="stylesheet" href="/css/style.css">
 
-    {{-- css fontawesome --}}
-    <link rel="stylesheet" href="/css/all.min.css">
+    {{-- google fonts --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     {{-- navbar --}}
         @include('partials.navbar')
 

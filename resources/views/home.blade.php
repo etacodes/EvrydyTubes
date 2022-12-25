@@ -9,19 +9,19 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active" >
-          <img src="img/1.jpg" class="d-block w-100" height="550" alt="Responsive image">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>NIKE NEW COLLECTIONS</h5>
+          <img src="img/adidascarou.jpg" class="d-block w-100" height="650" alt="Responsive image">
+          <div class="carousel-caption d-none d-md-block text-black">
+            <h3>ADIDAS NEW COLLECTIONS</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/2.jpg" class="d-block w-100" height="550" alt="Responsive image">
+          <img src="img/2.jpg" class="d-block w-100" height="650" alt="Responsive image">
           <div class="carousel-caption d-none d-md-block">
             <h3>PUMA</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/3.jpg" class="d-block w-100" height="550" alt="Responsive image">
+          <img src="img/3.jpg" class="d-block w-100" height="650" alt="Responsive image">
           <div class="carousel-caption d-none d-md-block">
             <h3>PUMA NEW COLLECTIONS</h5>
           </div>
