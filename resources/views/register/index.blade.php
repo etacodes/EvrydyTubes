@@ -9,7 +9,8 @@
                             <h1>Welcome Back</h1>
                             <p>Welcome back! Please enter your details.</p>
                     </div>
-                <form action="">
+                <form action="/register" method="POST">
+                    @csrf
                     <div class="login-form">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">

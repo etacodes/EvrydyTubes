@@ -3,21 +3,23 @@
 @section('container')
 
 <div class="container mt-5">
+    
     <div class="row p-3">
             <div class="col-md-7 col-sm-12">
                 <div class="header text-center">
                         <h1>LOGIN</h1>
                         <p>Welcome back! Please enter your details.</p>
                 </div>
-            <form action="">
+            <form action="/login" method="POST">
+                @csrf
                 <div class="login-form">
                         <label for="floatinginput" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="floatinginput" placeholder="name@example.com">
+                        <input type="email" name="email" class="form-control" id="floatinginput" placeholder="name@example.com">
         
-                        <label for="floatingPassword" class="form-label">Email</label>
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Enter your Password">
+                        <label for="floatingPassword" class="form-label">password</label>
+                        <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Enter your Password">
         
-                    <button class="signin mt-3">Sign In</button>
+                    <button type="submit" class="signin mt-3">Sign In</button>
                     <div class="text-center">
                         <span class="d-inline">Don't have an account? <a href="/register" class="d-inline text-decoration-none">Register now!</a></span>
                     </div>
