@@ -19,11 +19,7 @@
               <h3 class="card-title text-center">NEW BALANCE</h3>
               <p class="card-text m-1">New Balance</p>
               <p style="color: orange" class="m-1">
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-half"></i> 
-                <i class="bi bi-star"></i>
+                
               </p>
               <a href="#" class="btn btn-primary" class="text-light">Go To Review</a>
             </div>
@@ -37,11 +33,7 @@
               <h3 class="card-title text-center">ADIDAS</h3>
               <p class="card-text m-1">Adidas</p>
               <p style="color: orange" class="m-1">
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-half"></i>
+                
               </p>
               <a href="#" class="btn btn-primary">Go To Review</a>
             </div>
@@ -55,11 +47,7 @@
               <h3 class="card-title text-center">NIKE</h3>
               <p class="card-text m-1">Nike</p>
               <p style="color: orange" class="m-1">
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-half"></i>
+               
               </p>
               <a href="#" class="btn btn-primary">Go To Review</a>
             </div>
@@ -73,11 +61,7 @@
               <h3 class="card-title text-center">PUMA</h3>
               <p class="card-text m-1">Puma</p>
               <p style="color: orange" class="m-1">
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star-fill"></i> 
-                <i class="bi bi-star"></i>
+               
               </p>
               <a href="#" class="btn btn-primary">Go To Review</a>
             </div>
@@ -90,7 +74,7 @@
         <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"></a>
         <span class="text-muted">&copy;EverydayShoes 2022</span>
     </div>
-    <img src="img/B.jpg" alt="" width="40" height="40">
+    <img src="" alt="" width="40" height="40">
 
 @endsection
 

@@ -9,7 +9,7 @@
                         <h1>LOGIN</h1>
                         <p>Welcome back! Please enter your details.</p>
                 </div>
-            
+            <form action="">
                 <div class="login-form">
                         <label for="floatinginput" class="form-label">Email</label>
                         <input type="email" class="form-control" id="floatinginput" placeholder="name@example.com">
@@ -22,6 +22,7 @@
                         <span class="d-inline">Don't have an account? <a href="/register" class="d-inline text-decoration-none">Register now!</a></span>
                     </div>
                 </div>
+            </form>
                 <p class="mt-3 mb-3 text-muted text-center">EverydayShoes 2022&copy;</p>
             </div>
             <div class="col-md-5">
@@ -35,6 +36,9 @@
                                 </div>
                                 <div class="carousel-item">
                                 <img src="img/NIKElogo.jfif" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                <img src="img/NBLOGO.png" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
