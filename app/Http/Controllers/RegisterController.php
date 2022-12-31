@@ -22,7 +22,7 @@ class RegisterController extends Controller
             'name' => 'required|max:255',
             'username' => ['required', 'min:3', 'unique:users'],
             'email' => 'required|email:dns|unique:users',
-            'password' => 'required|min:6|max:255'
+            'password' => 'required|min:5|max:255'
         ]);
 
         $validatedData['password'] = Hash::make($validatedData['password']);
