@@ -7,12 +7,22 @@
           Dashboard
         </a>
       </li>
+      @can('isAdmin')
       <li class="nav-item">
         <a class="nav-link {{ Request::is('dashboard/posts*') ? 'active' : '' }}" href="/dashboard/posts">
           <span data-feather="file-text" class="align-text-bottom"></span>
           Posts
         </a>
       </li>
+      @endcan
+      @can('isUser')
+      <li class="nav-item">
+        <a class="nav-link {{ Request::is('dashboard/posts*') ? 'active' : '' }}" href="">
+          <span data-feather="file-text" class="align-text-bottom"></span>
+          Komentar
+        </a>
+      </li>
+      @endcan
     </ul>
   </div>
 </nav>
