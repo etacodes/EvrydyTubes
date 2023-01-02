@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand" href="/">
-            <img src="img/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-merge">
+            <img src="{{ URL::to('/') }}/img/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-merge">
             EverydayShoes
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
                 <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/"><i class="bi bi-house-door"></i> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link {{ ($title === "Review") ? 'active' : '' }}" href="/reviews"><i class="bi bi-view-list"></i> Review</a>
+                <a class="nav-link {{ ($title === "reviews") ? 'active' : '' }}" href="/reviews"><i class="bi bi-view-list"></i> Review</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link {{ ($title === "Brand") ? 'active' : '' }}" href="/brand"><i class="bi bi-border-all"></i> Brand</a>

@@ -25,8 +25,8 @@ class ReviewController extends Controller
         }
 
         return view('reviews', [
-            "title" => "All Posts" . $title,
-            "active" => "posts",
+            "title" => "reviews",
+            "active" => "reviews",
             "posts" => Post::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString(),
         ]);
     }

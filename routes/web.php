@@ -22,7 +22,8 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/', function () {
     return view('home', [
-        "title" => "Home"
+        "title" => "Home",
+        'active' => 'home'
     ]);
 });
 Route::get('/reviews', [ReviewController::class, 'index']);
@@ -32,12 +33,14 @@ Route::get('/reviews/{post:slug}', [ReviewController::class, 'show'])->name('rev
 Route::get('/brand', function () {
     return view('brand', [
         "title" => "Brand",
+        'active' => 'Brand',
         'categories' => Category::all()
     ]);
 });
 Route::get('/about', function () {
     return view('about', [
-        "title" => "About"
+        "title" => "About",
+        'active' => 'About',
     ]);
 });
 
