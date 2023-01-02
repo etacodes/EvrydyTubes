@@ -23,7 +23,8 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/', function () {
     return view('home', [
-        "title" => "Home"
+        "title" => "Home",
+        'active' => 'home'
     ]);
 });
 
@@ -49,7 +50,8 @@ Route::get('/brand', function () {
 });
 Route::get('/about', function () {
     return view('about', [
-        "title" => "About"
+        "title" => "About",
+        'active' => 'About',
     ]);
 });
 

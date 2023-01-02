@@ -9,19 +9,19 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active" >
-          <img src="img/adidascarou.jpg" class="d-block w-100" height="650" alt="Responsive image">
-          <div class="carousel-caption d-none d-md-block text-black">
+          <img src="img/adidaskarou.jpg" class="d-block w-100"  alt="Responsive image">
+          <div class="carousel-caption d-none d-md-block text-white">
             <h3>ADIDAS NEW COLLECTIONS</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/2.jpg" class="d-block w-100" height="650" alt="Responsive image">
+          <img src="img/nikecarou.jpg" class="d-block w-100"  alt="Responsive image">
           <div class="carousel-caption d-none d-md-block">
-            <h3>PUMA</h5>
+            <h3>NIKE NEW COLLECTIONS</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/3.jpg" class="d-block w-100" height="650" alt="Responsive image">
+          <img src="img/pumacarou.jpg" class="d-block w-100"  alt="Responsive image">
           <div class="carousel-caption d-none d-md-block">
             <h3>PUMA NEW COLLECTIONS</h5>
           </div>
@@ -82,7 +82,7 @@
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-3 border-bottom">
         <div class="col-md-4 d-flex align-items-center ">
             <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"></a>
-            <span class="text-muted">&copy;EverydayShoes 2022</span>
+            <span class="text-muted">Developed by EverydayShoes 2022</span>
         </div>
         <img src="" alt="" width="40" height="40">
   </div><!-- /.container -->
