@@ -106,7 +106,7 @@
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-3 border-bottom">
     <div class="col-md-4 d-flex align-items-center ">
         <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"></a>
-        <span class="text-muted">&copy;EverydayShoes 2022</span>
+        <span class="text-muted">Developed by EverydayShoes 2022</span>
     </div>
     <img src="img/logo.png" alt="" width="60" height="60">
 @endsection

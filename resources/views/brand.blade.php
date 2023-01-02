@@ -12,67 +12,27 @@
 
 {{-- card brand --}}
 <div class="row">
+    @foreach ($categories as $category)
     <div class="col-md-3">
-        <div class="card">
-            <img src="img/nblogo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title text-center">NEW BALANCE</h3>
-              <p class="card-text m-1">New Balance</p>
-              <p style="color: orange" class="m-1">
-                
-              </p>
-              <a href="#" class="btn btn-primary" class="text-light">Go To Review</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3">
-        <div class="card">
-            <img src="img/adidaslogo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title text-center">ADIDAS</h3>
-              <p class="card-text m-1">Adidas</p>
-              <p style="color: orange" class="m-1">
-                
-              </p>
-              <a href="#" class="btn btn-primary">Go To Review</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3">
-        <div class="card">
-            <img src="img/nikelogo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title text-center">NIKE</h3>
-              <p class="card-text m-1">Nike</p>
-              <p style="color: orange" class="m-1">
-               
-              </p>
-              <a href="#" class="btn btn-primary">Go To Review</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3">
-        <div class="card">
-            <img src="img/pumalogo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title text-center">PUMA</h3>
-              <p class="card-text m-1">Puma</p>
-              <p style="color: orange" class="m-1">
-               
-              </p>
-              <a href="#" class="btn btn-primary">Go To Review</a>
-            </div>
-        </div>
-    </div>
+      <div class="card">
+          <img src="img/{{ $category->name }}.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">{{ $category->name }}</h3>
+            <p class="card-text m-1">{{ $category->name }}</p>
+            <p style="color: orange" class="m-1">
+              
+            </p>
+            <a href="/reviews?category={{ $category->slug }}" class="btn btn-primary" class="text-light">Go To Review</a>
+          </div>
+      </div>
+  </div>
+    @endforeach
 </div>
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-3 border-bottom">
     <div class="col-md-4 d-flex align-items-center ">
         <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"></a>
-        <span class="text-muted">&copy;EverydayShoes 2022</span>
+        <span class="text-muted">Developed by EverydayShoes 2022</span>
     </div>
     <img src="img/logo.png" alt="" width="60" height="60">
 

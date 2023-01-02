@@ -46,6 +46,10 @@
     line-height: 1.4;
   }
 
+  .carousel-item {
+    height : 100%;
+  }
+
   .featurette-heading {
     font-size: 50px;
   }
