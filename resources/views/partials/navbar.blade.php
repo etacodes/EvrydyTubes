@@ -24,6 +24,7 @@
       </ul>
       <ul class="navbar-nav ms-auto">
         @auth
+        @can('isAdmin')
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Welcome back, {{ auth()->user()->name }}
@@ -41,6 +42,22 @@
             </li>
           </ul>
         </li>
+        @endcan
+        @can('isUser')
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Welcome back, {{ auth()->user()->name }}
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <form action="/logout" method="post">
+                @csrf
+                <button type="submit" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Logout</button>
+              </form>
+            </li>
+          </ul>
+        </li>
+        @endcan
         @else
         <li class="nav-item">
           <button type="button" class="btn btn-dark btn-sm"><a href="/login" class="nav-link text-white {{ ($title === "Login") ? 'active' : '' }}">
