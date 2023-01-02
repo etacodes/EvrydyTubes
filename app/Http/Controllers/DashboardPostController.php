@@ -87,7 +87,7 @@ class DashboardPostController extends Controller
     {
         return view('dashboard.posts.edit', [
             'post' => $post,
-            'categories' => Category::all()
+            'categories' => Category::all(),
         ]);
     }
 

@@ -25,11 +25,15 @@
                     <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Enter your Password">
 
                     <button type="submit" class="signin mt-3">Sign In</button>
-                    <div class="text-center">
-                        <span class="d-inline">Don't have an account? <a href="/register" class="d-inline text-decoration-none">Register now!</a></span>
-                    </div>
                 </div>
             </form>
+            <div class="text-center mt-3">
+                <span class="d-inline"><a href="{{ route('redirect') }}" class="d-inline text-decoration-none">Login with Google now</a></span>
+            </div>
+
+            <div class="text-center mt-3">
+                <span class="d-inline">Don't have an account? <a href="/register" class="d-inline text-decoration-none">Register now!</a></span>
+            </div>
             <p class="mt-3 mb-3 text-muted text-center">EverydayShoes 2022&copy;</p>
         </div>
         <div class="col-md-5">

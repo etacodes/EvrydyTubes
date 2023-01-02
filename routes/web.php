@@ -4,7 +4,10 @@ use App\Http\Controllers\DashboardPostController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
-
+use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\CommentController;
+use App\Http\Controllers\SocialiteController;
+use App\Models\Category;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
@@ -23,14 +26,25 @@ Route::get('/', function () {
         "title" => "Home"
     ]);
 });
-Route::get('/review', function () {
-    return view('review', [
-        "title" => "Review"
-    ]);
-});
+
+// Untuk redirect ke Google
+Route::get('login/google/redirect', [SocialiteController::class, 'redirect'])
+    ->middleware(['guest'])
+    ->name('redirect');
+
+// Untuk callback dari Google
+Route::get('login/google/callback', [SocialiteController::class, 'callback'])
+    ->middleware(['guest'])
+    ->name('callback');
+
+Route::get('/reviews', [ReviewController::class, 'index']);
+Route::post('/comments', [CommentController::class, 'store']);
+Route::get('/reviews/{post:slug}', [ReviewController::class, 'show'])->name('reviews.slug');
+
 Route::get('/brand', function () {
     return view('brand', [
-        "title" => "Brand"
+        "title" => "Brand",
+        'categories' => Category::all()
     ]);
 });
 Route::get('/about', function () {
