@@ -50,5 +50,10 @@ class DatabaseSeeder extends Seeder
             'name' => 'Adidas',
             'slug' => 'adidas',
         ]);
+
+        Category::create([
+            'name' => 'Specs',
+            'slug' => 'specs',
+        ]);
     }
 }
