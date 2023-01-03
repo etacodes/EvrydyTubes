@@ -30,5 +30,25 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'devinfebrian20@gmail.com',
         //     'password' => bcrypt('12345')
         // ]);
+
+        Category::create([
+            'name' => 'Puma',
+            'slug' => 'puma',
+        ]);
+
+        Category::create([
+            'name' => 'New Balance',
+            'slug' => 'new-balance',
+        ]);
+
+        Category::create([
+            'name' => 'Nike',
+            'slug' => 'nike',
+        ]);
+
+        Category::create([
+            'name' => 'Adidas',
+            'slug' => 'adidas',
+        ]);
     }
 }
